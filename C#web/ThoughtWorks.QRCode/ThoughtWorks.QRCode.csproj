@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07E62DF8-7AF1-4427-9E55-A98226608AFD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_ThoughtWorks.QRCode</RootNamespace>
+    <AssemblyName>ThoughtWorks.QRCode</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Data\QRCodeBitmapImage.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Data\QRCodeImage.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Data\QRCodeSymbol.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Ecc\BCH15_5.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Ecc\ReedSolomon.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\QRCodeDecoder.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\QRCodeEncoder.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Reader\Pattern\AlignmentPattern.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Reader\Pattern\FinderPattern.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Reader\Pattern\LogicalSeed.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Reader\QRCodeDataBlockReader.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Reader\QRCodeImageReader.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\Color.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\Color_Fields.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\ConsoleCanvas.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\ContentConverter.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\DebugCanvas.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\DebugCanvasAdapter.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\QRCodeUtility.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Codec\Util\SystemUtils.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\AlignmentPatternNotFoundException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\DecodingFailedException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\FinderPatternNotFoundException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\InvalidDataBlockException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\InvalidVersionException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\InvalidVersionInfoException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\SymbolNotFoundException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\ExceptionHandler\VersionInformationException.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Geom\Axis.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Geom\Line.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Geom\Point.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Geom\SamplingGrid.cs" />
+    <Compile Include="ThoughtWorks\QRCode\Properties\Resources.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

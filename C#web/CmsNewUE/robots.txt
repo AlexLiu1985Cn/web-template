@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /Ajax/
+Disallow: /App_Data/
+Disallow: /bin/
+Disallow: /CDQH*/
+Disallow: /DBBAK/
+Disallow: /include/
+Disallow: /install/
+Disallow: /template/
+Disallow: /MemberManage/
+Disallow: /WebApp/
+Sitemap: /sitemap.xml
+
+

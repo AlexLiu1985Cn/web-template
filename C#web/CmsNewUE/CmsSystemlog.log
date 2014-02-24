@@ -1,0 +1,176 @@
+
+
+2014/2/20 15:25:12连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:25:12操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:25:12ReadDataReaderList读数据库错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ReadDataReaderList(String strQuery, Int32 nNum) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 1185
+   在 _BLL.BLL.ReadDataReaderList(String strQuery, Int32 nNum) 位置 E:\StudySpace\C#web\BLL\BLL.cs:行号 1631
+
+
+2014/2/20 15:26:53连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:27:24操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:27:53ReadDataReaderList读数据库错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ReadDataReaderList(String strQuery, Int32 nNum) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 1185
+   在 _BLL.BLL.ReadDataReaderList(String strQuery, Int32 nNum) 位置 E:\StudySpace\C#web\BLL\BLL.cs:行号 1631
+
+
+2014/2/20 15:29:29连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:29:29操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:29:29ReadDataReaderList读数据库错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ReadDataReaderList(String strQuery, Int32 nNum) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 1185
+   在 _BLL.BLL.ReadDataReaderList(String strQuery, Int32 nNum) 位置 E:\StudySpace\C#web\BLL\BLL.cs:行号 1631
+
+
+2014/2/20 15:30:15连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:30:21操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:44:57连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:45:16操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:45:26连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:45:29操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:45:31连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:45:36操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:47:21连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 494
+
+
+2014/2/20 15:47:21操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 616select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:50:22连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 495
+
+
+2014/2/20 15:50:28操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 617select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:52:08连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 495
+
+
+2014/2/20 15:52:10操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 617select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 15:53:18连接数据库错误： System.Data.OleDb.OleDbException (0x80004005): 文件名无效。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 _DAL.OleDBHelper.DAL.CreateDB() 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 495
+
+
+2014/2/20 15:53:19操作数据库(无参数)错误： System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 _DAL.OleDBHelper.DAL.ExecuteScalar(String strQuery) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 617select top 1 AdminCH from QH_SiteInfo 
+
+
+2014/2/20 16:33:51DataReader ArrayList读数据库记录错误：System.InvalidOperationException: 不存在此行/列的数据。
+   在 System.Data.OleDb.OleDbDataReader.DoValueCheck(Int32 ordinal)
+   在 System.Data.OleDb.OleDbDataReader.GetValue(Int32 ordinal)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(Int32 index)
+   在 _DAL.OleDBHelper.DAL.ReadDataReaderList(String strQuery, Int32 nNum) 位置 E:\StudySpace\C#web\DAL\OleDBHelper\DAL.cs:行号 1196select top 3 LoginTime,State from AdminLog where ClientIP='::1' order by LoginTime desc

@@ -1,0 +1,19 @@
+ /*CSS Document */
+
+.changeBox_a1{
+position:relative;
+ }
+
+.changeBox_a1 .a_bigImg{
+position:absolute;
+display:none;}
+
+.a_last,.a_next{
+position:absolute;
+top:10px;
+width:16px;height:16px;
+background:url(bot.png) no-repeat;
+text-indent:-999em;overflow:hidden;}
+
+.a_last{right:30px;background-position:0 0;}
+.a_next{right:12px;background-position:100% 0;}

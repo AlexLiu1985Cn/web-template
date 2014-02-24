@@ -1,0 +1,178 @@
+/* CSS Document */
+
+body
+{
+    font-family: ËÎÌו, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: url(../image/bg.gif) repeat-x;
+    background-color: #2376bd;
+    margin: 0 auto;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    color: #2e7dc0;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #a7a7a7;
+}
+
+.clear
+{
+    clear: both;
+}
+.top
+{
+    margin: 0 auto;
+    width: 767px;
+    height: 600px;
+}
+.topleft
+{
+    float: left;
+    width: 199px;
+    height: 600px;
+    background-image: url(../image/left1.gif);
+    float: left;
+}
+.topcen
+{
+    width: 369px;
+    float: left;
+}
+.topcen1
+{
+    width: 369px;
+    height: 183px;
+    background-image: url(../image/top1.gif);
+}
+.topcen2
+{
+    width: 369px;
+    height: 250px;
+    background-image: url(../image/loginbg2.gif);
+}
+#loginform
+{
+    padding: 0px;
+    margin: 0px;
+    height: 208px;
+}
+.name1
+{
+    margin-left: 25px !important;
+    margin-left: 20px;
+    margin-top: 10px !important;
+    margin-top: 8px;
+    float: left;
+}
+#loginBox
+{
+    width: 250px;
+    margin-top: 3px;
+    margin-left: 10px !important;
+    margin-left: 10px;
+    float: left;
+}
+#loginBox ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+#loginBox li
+{
+    text-align: right;
+    width: 220px;
+    height: 20px;
+    margin-top: 10px !important;
+    margin-top: 5px;
+}
+#loginBox li span
+{
+    display: block;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    float: left;
+    color: #black;
+}
+.txtSty
+{
+    float: left;
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px #919a99 solid;
+    background: #fff;
+    font-size: 14px;
+}
+.txtSty1
+{
+    float: left;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px #919a99 solid;
+    background: #fff;
+    font-size: 14px;
+    float: left;
+}
+.txtSty2
+{
+    border: 1px #919a99 solid;
+    background: #fff;
+    color: #FFF;
+}
+
+.loginBtn
+{
+    width: 53px;
+    height: 53px;
+    background: url(../image/anniu.gif) no-repeat;
+    border: 0;
+    font-size: 14px;
+    color: #FFF;
+    float: right;
+    margin-right: 44px;
+    margin-top: 20px;
+}
+.zi
+{
+    text-align: right;
+    margin-right: 10px;
+}
+.zi a
+{
+    color: #2e7dc0;
+}
+.zi a:hover
+{
+    color: #a7a7a7;
+}
+
+
+
+.topright
+{
+    width: 199px;
+    height: 600px;
+    float: right;
+    background-image: url(../image/right1.gif);
+    margin-top: 0px;
+}
+.topbottom
+{
+    width: 368px;
+    height: 167px;
+    background-image: url(../image/bottom1.gif);
+    float: left;
+    margin-left: 199px;
+    margin-top: -167px;
+    _margin-left: 100px;
+}

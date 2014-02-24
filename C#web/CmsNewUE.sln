@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CmsNewUE", "CmsNewUE\", "{2BC266E0-B21C-42F7-9320-30A8320AB7FF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/CmsNewUE"
+		Debug.AspNetCompiler.PhysicalPath = "CmsNewUE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CmsNewUE\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CmsNewUE"
+		Release.AspNetCompiler.PhysicalPath = "CmsNewUE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CmsNewUE\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "17487"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{9A922436-6CC5-4900-90D1-7A1FC456D5BB} = {9A922436-6CC5-4900-90D1-7A1FC456D5BB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{2F65BEA5-C63B-44B9-92C6-D265D2DA2874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmsApp20", "CmsApp20\CmsApp20.csproj", "{9A922436-6CC5-4900-90D1-7A1FC456D5BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "commen", "common\commen.csproj", "{E118B520-A607-407F-9BBF-E50047DF1D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1FEE248F-F461-4D75-AECA-8E4124B6F539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionCharts", "FusionCharts\FusionCharts.csproj", "{1B60CC09-710C-4F8F-9475-5BF19138944D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoughtWorks.QRCode", "ThoughtWorks.QRCode\ThoughtWorks.QRCode.csproj", "{07E62DF8-7AF1-4427-9E55-A98226608AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TProcess", "TProcess\TProcess.csproj", "{89173329-999B-4E3A-BEB3-BC32F8BD5B8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BC266E0-B21C-42F7-9320-30A8320AB7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC266E0-B21C-42F7-9320-30A8320AB7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC266E0-B21C-42F7-9320-30A8320AB7FF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC266E0-B21C-42F7-9320-30A8320AB7FF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2F65BEA5-C63B-44B9-92C6-D265D2DA2874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F65BEA5-C63B-44B9-92C6-D265D2DA2874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F65BEA5-C63B-44B9-92C6-D265D2DA2874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F65BEA5-C63B-44B9-92C6-D265D2DA2874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A922436-6CC5-4900-90D1-7A1FC456D5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A922436-6CC5-4900-90D1-7A1FC456D5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A922436-6CC5-4900-90D1-7A1FC456D5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A922436-6CC5-4900-90D1-7A1FC456D5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E118B520-A607-407F-9BBF-E50047DF1D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E118B520-A607-407F-9BBF-E50047DF1D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E118B520-A607-407F-9BBF-E50047DF1D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E118B520-A607-407F-9BBF-E50047DF1D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEE248F-F461-4D75-AECA-8E4124B6F539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEE248F-F461-4D75-AECA-8E4124B6F539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEE248F-F461-4D75-AECA-8E4124B6F539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEE248F-F461-4D75-AECA-8E4124B6F539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B60CC09-710C-4F8F-9475-5BF19138944D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B60CC09-710C-4F8F-9475-5BF19138944D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B60CC09-710C-4F8F-9475-5BF19138944D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B60CC09-710C-4F8F-9475-5BF19138944D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E62DF8-7AF1-4427-9E55-A98226608AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E62DF8-7AF1-4427-9E55-A98226608AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E62DF8-7AF1-4427-9E55-A98226608AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E62DF8-7AF1-4427-9E55-A98226608AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89173329-999B-4E3A-BEB3-BC32F8BD5B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89173329-999B-4E3A-BEB3-BC32F8BD5B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89173329-999B-4E3A-BEB3-BC32F8BD5B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89173329-999B-4E3A-BEB3-BC32F8BD5B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
